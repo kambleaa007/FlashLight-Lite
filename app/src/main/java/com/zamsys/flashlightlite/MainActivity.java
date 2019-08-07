@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
         boolean isFlashAvailable = getApplicationContext().getPackageManager()
                 .hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
 
-        if (!isFlashAvailable) {
-            showNoFlashError();
-        }
+        //if (!isFlashAvailable) {
+        //    showNoFlashError();
+        //}
 
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
